@@ -32,7 +32,14 @@ print(acct1.balance)
 # 5. Make a series of deposits and withdrawals
 acct1.deposit(50)
 
+# 6. Show balance after deposit
+print(acct1)
+
+# 7. Make a withdrawl that is acceptable
 acct1.withdraw(75)
 
-# 6. Make a withdrawal that exceeds the available balance
+#8. Show balance after withdrawl
+print(acct1)
+
+# 9. Make a withdrawal that exceeds the available balance
 acct1.withdraw(500)
